@@ -1,0 +1,7 @@
+# shall we compose?!!!
+
+cat supporting_files/poem.txt
+
+cat supporting_files/poem.txt | tail -3
+
+cat supporting_files/poem.txt | tail -3 | tr '[:lower:]' '[:upper:]'
